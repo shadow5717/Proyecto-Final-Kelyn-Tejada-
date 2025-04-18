@@ -1,0 +1,74 @@
+#  Smart Grid EDESUR
+
+Sistema de monitoreo y gestión de red eléctrica inteligente (Smart Grid) para la empresa EDESUR.
+
+---
+
+## Descripción del proyecto
+Este sistema permite a EDESUR y a sus usuarios visualizar el estado de la red eléctrica, reportar fallos o tareas de mantenimiento, analizar alertas activas y consultar reportes históricos. Fue desarrollado como proyecto final de la asignatura Programación III.
+
+---
+
+##  Tecnologías utilizadas
+- HTML5, CSS3 y JavaScript
+- [Chart.js](https://www.chartjs.org/) para gráficos
+- [Font Awesome](https://fontawesome.com/) para iconos
+- [Netlify](https://www.netlify.com/) para publicación
+- [Jira](https://www.atlassian.com/software/jira) para gestión Scrum
+- [Selenium (Python)](https://www.selenium.dev/) para pruebas automatizadas
+
+---
+
+##  Acceso al sistema (demo online)
+ [https://edesursmartgird.netlify.app/](https://edesursmartgird.netlify.app/)
+
+---
+
+##  Estructura del repositorio
+
+```
+smartgrid-edesur/
+├── index.html              # Página principal del sistema
+├── style.css               # Estilos generales
+├── script.js               # Lógica del sistema
+├── edesur.png              # Logo de EDESUR
+├── README.md               # Este documento
+└── tests/                  # Pruebas automatizadas con Selenium
+    ├── test_reportar_fallo.py
+    ├── test_reportar_mantenimiento.py
+    └── test_full_demo.py   # Flujo completo de pruebas alineado a las historias de usuario
+```
+
+---
+
+##  Cómo ejecutar las pruebas automatizadas
+
+1. Asegúrate de tener Python instalado.
+2. Instala Selenium:
+   ```bash
+   pip install selenium
+   ```
+3. Descarga y ubica `chromedriver` (según tu versión de Chrome).
+4. Ejecuta alguno de los scripts en la carpeta `tests/`:
+   ```bash
+   python tests/test_full_demo.py
+   ```
+
+---
+
+## Gestión Scrum (Jira)
+
+El proyecto fue gestionado con metodología Scrum utilizando Jira. Se definieron:
+- 3 sprints
+- 10 historias de usuario
+- Épicas como: Estado General, Alertas, Reportes
+- Tablero disponible para demostración
+
+---
+
+##  Autor
+- **[Cristopher Alexis Volquez Vasquez]**  
+Estudiante de Programación III  
+[Instituo Tecnologico De Las Americas (ITLA)]
+
+

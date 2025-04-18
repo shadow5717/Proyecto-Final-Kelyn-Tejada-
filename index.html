@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDESUR - Sistema Smart Grid</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="logo-container">
+        <img src="edesur.png" alt="Logo EDESUR" class="logo" />
+        <div class="system-name">Smart Grid EDESUR</div>
+      </div>
+      <a href="#" class="menu-item active" data-target="estadoGeneral">
+        <i class="fas fa-bolt"></i>
+        Estado General
+      </a>
+      <a href="#" class="menu-item" data-target="analisisPreventivo">
+        <i class="fas fa-chart-line"></i>
+        Análisis Preventivo
+      </a>
+      <a href="#" class="menu-item" data-target="alertasActivas">
+        <i class="fas fa-exclamation-triangle"></i>
+        Alertas Activas
+      </a>
+      <a href="#" class="menu-item" data-target="mantenimiento">
+        <i class="fas fa-tools"></i>
+        Mantenimiento
+      </a>
+      <a href="#" class="menu-item" data-target="reportesHistoricos">
+        <i class="fas fa-file-alt"></i>
+        Reportes Históricos
+      </a>
+    </nav>
+
+    <main class="main-content">
+      <section id="estadoGeneral" class="content-section active">
+        <div class="status-header">
+          <div class="status-card">
+            <h3>Red Activa</h3>
+            <div class="status-indicator online">92%</div>
+            <small>Transformadores operativos</small>
+          </div>
+          <div class="status-card">
+            <h3>Alertas</h3>
+            <div class="status-indicator warning">15</div>
+            <small>Incidentes activos</small>
+          </div>
+          <div class="status-card">
+            <h3>Consumo Actual</h3>
+            <div class="status-indicator">850 MW</div>
+            <small>Demanda en tiempo real</small>
+          </div>
+        </div>
+        <div class="main-chart">
+          <canvas id="consumoChart"></canvas>
+        </div>
+      </section>
+
+      <section id="analisisPreventivo" class="content-section">
+        <h2>Análisis Preventivo</h2>
+        <p>
+          Aquí se mostrará el análisis preventivo del sistema, con gráficos y
+          reportes de tendencias para anticipar posibles fallas.
+        </p>
+      </section>
+
+      <section id="alertasActivas" class="content-section">
+        <h2>Alertas Activas</h2>
+        <div class="alert-panel">
+          <div class="alert-item critical">
+            <strong>Sobrecalentamiento en Transformador T-45</strong>
+            <p>Zona Norte - Nivel crítico</p>
+          </div>
+          <div class="alert-item warning">
+            <strong>Fluctuación de voltaje en Línea 12B</strong>
+            <p>Sector Industrial - 15% variación</p>
+          </div>
+          <div class="alert-item info">
+            <strong>Mantenimiento Programado</strong>
+            <p>Subestación Central - 15/03/2025</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="mantenimiento" class="content-section">
+        <h2>Mantenimiento</h2>
+        <p>
+          Aquí se mostrarán las tareas y registros de mantenimiento del sistema,
+          con alertas y notificaciones programadas.
+        </p>
+      </section>
+
+      <section id="reportesHistoricos" class="content-section">
+        <h2>Reportes Históricos</h2>
+        <p>A continuación se agregarán los reportes realizados:</p>
+      </section>
+
+      <div class="report-button">
+        <i class="fas fa-plus"></i>
+        <span style="margin-left: 10px">Reportar Fallo</span>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </body>
+</html>
