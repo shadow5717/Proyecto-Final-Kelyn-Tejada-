@@ -152,6 +152,16 @@
   .alert-item.info {
     border-color: #2196f3;
   }
+  .report-button {
+    background-color: #0077cc;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: 0.3s;
+  }
+  .report-button:hover {
+    background-color: #005fa3;
+  }
   
   .report-button {
     position: fixed;
