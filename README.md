@@ -1,10 +1,10 @@
-# ⚡ Proyecto Final – Smart Grid EDESUR
+#  Proyecto Final – Smart Grid EDESUR
 
 Este proyecto simula una red eléctrica inteligente para la empresa EDESUR, como parte del curso Programación III.
 
 ---
 
-## 🚀 Funcionalidades implementadas
+## Funcionalidades implementadas
 
 - Estado general de la red
 - Visualización del consumo energético (gráfico)
@@ -16,7 +16,7 @@ Este proyecto simula una red eléctrica inteligente para la empresa EDESUR, como
 
 ---
 
-## 🔧 Instalación y uso
+##  Instalación y uso
 
 1. Cloná el repositorio:
 
