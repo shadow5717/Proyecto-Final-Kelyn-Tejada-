@@ -1,22 +1,24 @@
-# Proyecto Final – Smart Grid EDESUR
+# ⚡ Proyecto Final – Smart Grid EDESUR
 
-Este proyecto simula un sistema de red eléctrica inteligente desarrollado para la empresa EDESUR.
-
-##  Funcionalidades
-- Visualización del estado de la red
-- Reporte de fallos y mantenimiento
-- Alertas activas
-- Reportes históricos
-- Gráficos de consumo
-
-##  Pruebas
-Se incluye una prueba automatizada con Selenium y reporte HTML con capturas.
-
-## 🛠 Tecnologías
-- HTML, CSS, JavaScript
-- Chart.js
-- Selenium
-- Git y GitHub
+Este proyecto simula una red eléctrica inteligente para la empresa EDESUR, como parte del curso Programación III.
 
 ---
- Desarrollado por Kelyn Tejada
+
+## 🚀 Funcionalidades implementadas
+
+- Estado general de la red
+- Visualización del consumo energético (gráfico)
+- Alertas activas por criticidad
+- Reporte de fallos y mantenimiento
+- Reportes históricos generados automáticamente
+- Estilo responsive + animaciones
+- Pruebas automatizadas con Selenium
+
+---
+
+## 🔧 Instalación y uso
+
+1. Cloná el repositorio:
+
+```bash
+git clone https://github.com/shadow5717/Proyecto-Final-Kelyn-Tejada-.git
