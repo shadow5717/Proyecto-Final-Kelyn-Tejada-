@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let tipoInput = prompt(
       "Ingrese el tipo de reporte: 'fallo' o 'mantenimiento'"
     );
+
     if (!tipoInput) {
       alert("Debe ingresar un tipo de reporte.");
       return;
@@ -89,9 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (reportesHistoricos) {
       let historicoReporte = document.createElement("div");
       historicoReporte.classList.add("historico-reporte");
+      let fecha = new Date().toLocaleString();
       historicoReporte.innerHTML = `<strong>${
         tipoInput === "fallo" ? "Fallo" : "Mantenimiento"
-      }:</strong> ${detalle}`;
+      }:</strong> ${detalle} <br><em>${fecha}</em>`;
       reportesHistoricos.appendChild(historicoReporte);
     }
 
